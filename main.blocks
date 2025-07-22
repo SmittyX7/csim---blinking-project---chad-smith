@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_button_event" id="|x0pxr$QMH]biA{%tuKt" x="0" y="0"><field name="NAME">Button.A</field><comment pinned="true" h="80" w="160">When button A is pressed, the message "SMILE! :smileyface BE HAPPY! :heart" will scroll across the LEDs.</comment><data>{"commentRefs":[],"fieldData":{"~commentOffsetX":"-9.641072591145829","~commentOffsetY":"-116.051272922092"}}</data><statement name="HANDLER"><block type="device_print_message" id="`VnnldZoRs2!+r@t}8Ke"><value name="text"><shadow type="text" id="H6OTrxKmZ4Rq)oNI%8-$"><field name="TEXT">SMILE!</field></shadow></value><next><block type="basic_show_icon" id="H_4V_T,$X+p]Z,|[jdPX"><field name="i">IconNames.Happy</field><next><block type="device_clear_display" id="mY5OjkNnWfAchFagBB@P"><next><block type="device_pause" id="3},Zl54)99hSDE.w}tHC"><value name="pause"><shadow type="timePicker" id="(hAsTu25su8Z;CR75wb}"><field name="ms">200</field></shadow></value><next><block type="device_print_message" id="H7LX,wGlEW6Q_V]RJ;cU"><value name="text"><shadow type="text" id=";}AEER+ek,A9K@EObDy/"><field name="TEXT">BE HAPPY!</field></shadow></value><next><block type="basic_show_icon" id="4(EXd!^W7rZhINx6IHrS"><field name="i">IconNames.Heart</field><next><block type="device_pause" id="^N`,FIs8MMh^oDbr0G/L"><value name="pause"><shadow type="timePicker" id="7,CVk+o(Yw02vd`ERmRn"><field name="ms">200</field></shadow></value><next><block type="device_clear_display" id="4dzxi%w^-m~FyH(Sin7Z"></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="Z/r19YswKF_|#?cOFYp[" x="269" y="4"><field name="NAME">Button.B</field><comment pinned="true" h="92" w="243">When button B is pressed, a series of LED displays will show an animated stick figure doing a jumping jack.</comment><data>{"commentRefs":[],"fieldData":{"~commentOffsetX":"-19.470106336805543","~commentOffsetY":"-125.88035753038193"}}</data><statement name="HANDLER"><block type="device_show_leds" id="^u~yE,zA2`#wU(c%sy83"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="YB*@l}}A$[y8M:=C6Zn."><field name="LEDS">`
+        . . # . . 
+        # # # # # 
+        . . # . . 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="Y@{iPb[w/r_y)2/:m$[B"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        . . # . . 
+        . # # # . 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="uM3s]bNmpiG^PXPiuY1="><field name="LEDS">`
+        . . # . . 
+        # # # # # 
+        . . # . . 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="3LPvdHXQ%./9C`IrQRuc"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="device_clear_display" id="Y{g~?q7(rXA{+MvOl-56"></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
